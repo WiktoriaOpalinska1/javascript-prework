@@ -42,8 +42,7 @@ function buttonClicked(argButtonName) {
       computerMove = getMoveName(randomNumber);
       displayResult(playerMove, computerMove);
       playerMove = argButtonName;
-  }
-
+}
 
 buttonRock.addEventListener('click', function(){ buttonClicked('kamień'); });
 buttonPaper.addEventListener('click', function(){ buttonClicked('papier'); });
